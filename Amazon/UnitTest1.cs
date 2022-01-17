@@ -101,7 +101,7 @@ namespace Amazon
             js5.ExecuteScript("scrollBy(0,6000);");
 
             driver.FindElement(By.XPath("//a[text()='7']")).Click();
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
             //
             IJavaScriptExecutor js6 = (IJavaScriptExecutor)driver;
             js6.ExecuteScript("scrollBy(0,4000);");
